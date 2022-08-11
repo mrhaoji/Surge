@@ -1,0 +1,7 @@
+#!name=MitM All
+#!desc=对所有网站开启 MitM
+
+[MITM]
+skip-server-cert-verify = true
+tcp-connection = true
+hostname = -*.github.com,-*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *
